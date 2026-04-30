@@ -8,6 +8,12 @@ public class Comment extends BaseContent {
     }
 
     // Getter và Setter
-    public Long getPostId() { return postId; }
-    public void setPostId(Long postId) { this.postId = postId; }
+
+    public Long getPostId() {
+        return postId;
+    }
+
+    public void setPostId(Long postId) {
+        this.postId = postId;
+    }
 }

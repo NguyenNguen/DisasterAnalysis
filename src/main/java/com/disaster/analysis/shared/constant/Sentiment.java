@@ -1,8 +1,8 @@
 package com.disaster.analysis.shared.constant;
 
 public enum Sentiment {
-    POSITIVE,
-    NEGATIVE,
-    NEUTRAL,
-    UNKNOWN
+    POSITIVE,   // Tích cực
+    NEGATIVE,   // Tiêu cực
+    NEUTRAL,    // Trung lập
+    UNKNOWN     // Không xác định
 }
