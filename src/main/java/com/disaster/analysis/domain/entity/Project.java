@@ -19,8 +19,24 @@ public class Project {
     // Constructor
     public Project() {}
 
-    // Getters and Setters
+    public Project(Long id, String name, String disasterName, String keywords,
+                   String hashtags, LocalDateTime startDate, LocalDateTime endDate,
+                   String platforms, ProjectStatus status, LocalDateTime createdAt,
+                   LocalDateTime lastModified) {
+        this.id = id;
+        this.name = name;
+        this.disasterName = disasterName;
+        this.keywords = keywords;
+        this.hashtags = hashtags;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.platforms = platforms;
+        this.status = status;
+        this.createdAt = createdAt;
+        this.lastModified = lastModified;
+    }
 
+    // Getters and Setters
     public Long getId() {
         return id;
     }

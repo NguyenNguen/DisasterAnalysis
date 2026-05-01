@@ -19,7 +19,7 @@ module com.disaster.analysis {
     // Driver cụ thể để kết nối và tương tác với SQL Server
     requires com.microsoft.sqlserver.jdbc;
 
-    // --- Cấu hình quyền truy cập (Encapsulation) ---
+    // Cấu hình quyền truy cập (Encapsulation)
 
     // Cho phép module javafx.fxml truy cập các thành phần (cả private)
     // trong package controller thông qua Reflection để xử lý sự kiện giao diện.

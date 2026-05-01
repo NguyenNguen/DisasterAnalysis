@@ -66,9 +66,7 @@ public class AppConfig {
         return getProperty("db.password");
     }
 
-    /**
-     * @return Chuỗi chứa mã khóa API của dịch vụ AI.
-     */
+    /** @return Chuỗi chứa mã khóa API của dịch vụ AI */
     public static String getAiKey() {
         return getProperty("ai.api.key");
     }

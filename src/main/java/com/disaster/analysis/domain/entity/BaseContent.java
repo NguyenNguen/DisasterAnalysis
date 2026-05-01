@@ -18,6 +18,7 @@ public abstract class BaseContent {
     protected boolean isAnalyzed;
     protected LocalDateTime collectedAt;
 
+    // Getter và Setter
     public Long getId() {
         return id;
     }
