@@ -1,4 +1,4 @@
-# Disaster Social Media Analysis
+# Disaster Analysis
 
 ![Java](https://img.shields.io/badge/Java-21-orange.svg?style=flat-square&logo=java)
 ![JavaFX](https://img.shields.io/badge/JavaFX-Desktop-blue.svg?style=flat-square)
@@ -9,9 +9,9 @@
 
 ---
 
-## Giới thiệu (About The Project)
+## Giới thiệu
 
-Trong bối cảnh thảm họa thiên nhiên ngày càng gia tăng, việc nắm bắt tình hình thực địa và tâm lý người dân là vô cùng cấp bách. Dự án **Disaster Social Media Analysis** được xây dựng nhằm tự động hóa luồng dữ liệu (Data Pipeline) từ khâu thu thập trên mạng xã hội, tiền xử lý, cho đến phân tích ngôn ngữ tự nhiên (NLP) và xuất báo cáo. 
+Trong bối cảnh thảm họa thiên nhiên ngày càng gia tăng, việc nắm bắt tình hình thực địa và tâm lý người dân là vô cùng cấp bách. Dự án **Disaster Analysis** được xây dựng nhằm tự động hóa luồng dữ liệu (Data Pipeline) từ khâu thu thập trên mạng xã hội, tiền xử lý, cho đến phân tích ngôn ngữ tự nhiên (NLP) và xuất báo cáo. 
 
 Hệ thống giúp các tổ chức cứu trợ theo dõi sự thay đổi tâm lý công chúng và thống kê mức độ thiệt hại theo thời gian thực, từ đó tối ưu hóa việc phân bổ nguồn lực và hỗ trợ ra quyết định trong logistics nhân đạo.
 
@@ -34,7 +34,7 @@ Dự án chú trọng vào thiết kế phần mềm sạch, áp dụng triệt 
   * *Other:* Custom Dependency Injection (thông qua class `ApplicationContext`).
 * **Xử lý đồng thời (Concurrency):** Sử dụng `JavaFX Task` và Thread Pools để xử lý bất đồng bộ các tác vụ nặng (cào API, truy vấn DB, gọi AI), đảm bảo UI luôn mượt mà.
 
-## 🛠️ Công nghệ sử dụng (Tech Stack)
+## Công nghệ sử dụng (Tech Stack)
 
 * **Ngôn ngữ:** Java 21
 * **Giao diện:** JavaFX, FXML
