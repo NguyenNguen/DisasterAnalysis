@@ -34,7 +34,7 @@ Dự án chú trọng vào thiết kế phần mềm sạch, áp dụng triệt 
   * *Other:* Custom Dependency Injection (thông qua class `ApplicationContext`).
 * **Xử lý đồng thời (Concurrency):** Sử dụng `JavaFX Task` và Thread Pools để xử lý bất đồng bộ các tác vụ nặng (cào API, truy vấn DB, gọi AI), đảm bảo UI luôn mượt mà.
 
-## Công nghệ sử dụng (Tech Stack)
+## Công nghệ sử dụng
 
 * **Ngôn ngữ:** Java 21
 * **Giao diện:** JavaFX, FXML
@@ -44,14 +44,14 @@ Dự án chú trọng vào thiết kế phần mềm sạch, áp dụng triệt 
   * Stanford CoreNLP (Tiền xử lý ngôn ngữ tự nhiên)
   * Jackson (Xử lý JSON), Dotenv-java (Quản lý biến môi trường)
 
-## Hướng dẫn cài đặt (Getting Started)
+## Hướng dẫn cài đặt
 
-### Yêu cầu hệ thống (Prerequisites)
+### Yêu cầu hệ thống
 * Java JDK 21 trở lên.
 * Microsoft SQL Server đang chạy (Local hoặc Remote).
 * API Keys hợp lệ (YouTube Data API, Google Gemini API / OpenAI API).
 
-### Các bước cài đặt (Installation)
+### Các bước cài đặt
 
 1. **Clone repository:**
    ```bash
