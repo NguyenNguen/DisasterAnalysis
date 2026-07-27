@@ -5,7 +5,7 @@
 ![SQLServer](https://img.shields.io/badge/Database-SQL_Server-red.svg?style=flat-square&logo=microsoftsqlserver)
 ![Architecture](https://img.shields.io/badge/Architecture-Hexagonal-brightgreen.svg?style=flat-square)
 
-> **Đề tài:** Ứng dụng dữ liệu mạng xã hội để nâng cao hiệu quả trong logistics nhân đạo.
+> ** Ứng dụng dữ liệu mạng xã hội để nâng cao hiệu quả trong logistics nhân đạo. **
 
 ---
 
@@ -28,7 +28,7 @@ Hệ thống giúp các tổ chức cứu trợ theo dõi sự thay đổi tâm 
 Dự án chú trọng vào thiết kế phần mềm sạch, áp dụng triệt để các nguyên lý OOP và Design Patterns mà không phụ thuộc vào các framework lớn (như Spring Boot):
 
 * **Kiến trúc cốt lõi:** **Hexagonal Architecture (Ports and Adapters)** kết hợp **Layered Architecture**. Tầng nghiệp vụ (Domain) được cô lập hoàn toàn khỏi các chi tiết hạ tầng (Database, UI, External APIs).
-* **Design Patterns nổi bật:** * *Creational:* Singleton, Factory Method.
+* **Design Patterns nổi bật:** *Creational:* Singleton, Factory Method.
   * *Structural:* Adapter, DTO (Data Transfer Object).
   * *Behavioral:* Strategy, Repository.
   * *Other:* Custom Dependency Injection (thông qua class `ApplicationContext`).
