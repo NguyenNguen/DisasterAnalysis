@@ -15,15 +15,15 @@ Trong bối cảnh thảm họa thiên nhiên ngày càng gia tăng, việc nắ
 
 Hệ thống giúp các tổ chức cứu trợ theo dõi sự thay đổi tâm lý công chúng và thống kê mức độ thiệt hại theo thời gian thực, từ đó tối ưu hóa việc phân bổ nguồn lực và hỗ trợ ra quyết định trong logistics nhân đạo.
 
-## Tính năng nổi bật (Key Features)
+## Tính năng nổi bật
 
-* ** Thu thập & Tiền xử lý dữ liệu:** Tự động cào dữ liệu (bài đăng, bình luận) từ YouTube và các trang báo điện tử (VnExpress, Dantri, v.v.) dựa trên từ khóa tùy chỉnh.
-* ** Phân tích cảm xúc (Sentiment Analysis):** Theo dõi sự biến động tâm lý công chúng (Tích cực, Tiêu cực, Trung lập) theo các mốc thời gian (Giờ, Ngày, Tuần, Tháng).
-* ** Phân loại thiệt hại (Damage Classification):** Tự động phân nhóm văn bản thành các hạng mục thiệt hại: Cơ sở hạ tầng, Nhà cửa, Tài sản cá nhân, Người bị ảnh hưởng, v.v.
-* ** Tích hợp AI (AI Insights):** Kết nối với LLMs (Google Gemini, OpenAI) để tự động phân tích chuyên sâu, tạo báo cáo tổng hợp và đề xuất giải pháp cứu trợ.
-* ** Trực quan hóa & Xuất báo cáo:** Giao diện JavaFX hiện đại với các biểu đồ động (Bar chart, Line chart) và hỗ trợ xuất toàn bộ dữ liệu ra tệp Excel (`.xlsx`).
+* Thu thập & Tiền xử lý dữ liệu: Tự động cào dữ liệu (bài đăng, bình luận) từ YouTube và các trang báo điện tử (VnExpress, Dantri, v.v.) dựa trên từ khóa tùy chỉnh.
+* Phân tích cảm xúc (Sentiment Analysis): Theo dõi sự biến động tâm lý công chúng (Tích cực, Tiêu cực, Trung lập) theo các mốc thời gian (Giờ, Ngày, Tuần, Tháng).
+* Phân loại thiệt hại (Damage Classification): Tự động phân nhóm văn bản thành các hạng mục thiệt hại: Cơ sở hạ tầng, Nhà cửa, Tài sản cá nhân, Người bị ảnh hưởng, v.v.
+* Tích hợp AI (AI Insights): Kết nối với LLMs (Google Gemini, OpenAI) để tự động phân tích chuyên sâu, tạo báo cáo tổng hợp và đề xuất giải pháp cứu trợ.
+* Trực quan hóa & Xuất báo cáo: Giao diện JavaFX hiện đại với các biểu đồ động (Bar chart, Line chart) và hỗ trợ xuất toàn bộ dữ liệu ra tệp Excel (`.xlsx`).
 
-## Kiến trúc Hệ thống (Architecture & Design)
+## Kiến trúc Hệ thống
 
 Dự án chú trọng vào thiết kế phần mềm sạch, áp dụng triệt để các nguyên lý OOP và Design Patterns mà không phụ thuộc vào các framework lớn (như Spring Boot):
 
@@ -39,7 +39,7 @@ Dự án chú trọng vào thiết kế phần mềm sạch, áp dụng triệt 
 * **Ngôn ngữ:** Java 21
 * **Giao diện:** JavaFX, FXML
 * **Cơ sở dữ liệu:** Microsoft SQL Server, HikariCP (Connection Pool)
-* **Thư viện & API:** * Google YouTube Data API v3, Jsoup (Web Scraping)
+* **Thư viện & API:** Google YouTube Data API v3, Jsoup (Web Scraping)
   * Apache POI (Xuất file Excel)
   * Stanford CoreNLP (Tiền xử lý ngôn ngữ tự nhiên)
   * Jackson (Xử lý JSON), Dotenv-java (Quản lý biến môi trường)
