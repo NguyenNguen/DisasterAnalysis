@@ -5,7 +5,7 @@
 ![SQLServer](https://img.shields.io/badge/Database-SQL_Server-red.svg?style=flat-square&logo=microsoftsqlserver)
 ![Architecture](https://img.shields.io/badge/Architecture-Hexagonal-brightgreen.svg?style=flat-square)
 
-> ** Ứng dụng dữ liệu mạng xã hội để nâng cao hiệu quả trong logistics nhân đạo. **
+> Ứng dụng dữ liệu mạng xã hội để nâng cao hiệu quả trong logistics nhân đạo.
 
 ---
 
